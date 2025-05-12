@@ -1,0 +1,33 @@
+.countries-wrapper {
+  text-align: center;
+  padding: 2rem;
+}
+
+.countries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.country-card {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 10px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.emoji {
+  font-size: 2.5rem;
+}
+
+.name-link {
+  margin-top: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
